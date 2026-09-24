@@ -3,7 +3,7 @@ import random
 import os
 import sys
 
-sys.path.append("C:\\Users\\kevin\\OneDrive\\Desktop\\lecture_codes_09_22")
+sys.path.append("C:\\Users\\kevin\\OneDrive\\Desktop\\lecture_codes_09_22") # noqa
 
 import math_lib
 import math
