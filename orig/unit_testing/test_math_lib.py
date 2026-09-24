@@ -1,6 +1,10 @@
 import unittest
 import random
 import os
+import sys
+
+sys.path.append("C:\\Users\\kevin\\OneDrive\\Desktop\\lecture_codes_09_22")
+
 import math_lib
 import math
 
