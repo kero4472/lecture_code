@@ -1,0 +1,16 @@
+name: Unit tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  run_unit_tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+      uses: mamba-org/setup-micromamba@v3
+      with:
+        environment-file: environment.yml
+        init-shell: bash
+      run: |
